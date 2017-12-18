@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(0, 242, 112);
+    color: white;
+    font-size :28px;
+    font-family: 'Inconsolata', monospace;
+    font-weight:bold;
+}
+
+#container{
+    width:900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#passwordField{
+    width: 1000px;
+    margin-top:50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 64px;
+    min-height: 60px;
+    /*text-transform: uppercase;*/
+}
+#chances{
+    /*float: left;
+    width:450px;
+    text-align: center;*/
+    margin-top:50px;
+    /*margin-bottom: 50px;*/
+    text-align: center;
+    min-height:220px;
+}
+#hint{
+    margin-top:50px;
+    text-align: center;
+    min-height:80px;
+    
+}
+#alphabet{
+    /*float: left;
+    width: 450px;
+    text-align: center;*/
+    width: 1000px;
+    margin-top:50px;
+    margin-bottom: 50px;
+    text-align: center;
+    min-height: 100px;  
+}
+#category{
+    margin-top:auto;
+    text-align: left;
+    color: rgb(150, 6, 107)
+}
+.letters{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border: 3px solid white;
+    border-radius:15px;
+    float: left;
+    cursor: pointer;
+}
+.letters:hover{
+    background-color:  rgb(0, 242, 112);
+    color: black;
+    border:3px solid black;
+}
+.reset,.add{
+    color: darkblue;
+    cursor: pointer;
+    font-size:48px;
+}
+.reset:hover{
+    color:blue;
+}
+.add:hover{
+    color:blue;
+}
+
+.name{
+    width: 100px;
+    height: 80px;
+}
+button {
+    position: relative;
+    background-color: rgb(150, 6, 107);
+    color: #ffffff;
+    border: none;
+    padding:  20px;
+    width: 200px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    font-size: 28px;
+    font-family:'Inconsolata', monospace;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+  }
+  .button:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+input {
+    padding: 10px;
+    width: 50%;
+    height: 60px;
+    font-size: 17px;
+    font-family: 'Inconsolata', monospace;
+    font-weight:bold;
+    font-size:42px;
+    border: 1px solid white;
+  }
+  input.invalid {
+    background-color: #ffdddd;
+  }
+  #time{
+    width: 1000px;
+    margin-top:50px;
+    margin-bottom: 50px;
+    text-align: center;
+    min-height: 100px;
+  }

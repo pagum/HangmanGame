@@ -1,0 +1,159 @@
+body{
+    background-color: rgb(0, 242, 112);
+    color: white;
+    font-size :48px;
+    font-family: 'Inconsolata', monospace;
+    font-weight:bold;
+}
+input {
+    padding: 10px;
+    width: 50%;
+    height: 80px;
+    font-size: 17px;
+    font-family: 'Inconsolata', monospace;
+    font-weight:bold;
+    font-size:48px;
+    border: 1px solid white;
+  }
+  input.invalid {
+    background-color: #ffdddd;
+  }
+  button {
+    position: center;
+    background-color: rgb(150, 6, 107);
+    color: #ffffff;
+    border: none;
+    padding:  20px;
+    width: 200px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    font-size: 28px;
+    font-family:'Inconsolata', monospace;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 20px;
+}
+  
+  .button:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+.button:hover{
+    color: darkblue;
+}
+  
+#container{
+    width:1200x;
+    margin-left: auto;
+    margin-right: auto;
+}
+.head {
+    width:500px;
+    margin-left: 0px;
+    margin-right: auto; /* Set a width if you like */
+    text-align: center;
+    font-size: 48px;
+}
+#head {
+    width:700px;
+    margin-left: 0px;
+    margin-right: auto; /* Set a width if you like */
+    text-align: center;
+    font-size: 48px;
+}
+#top{
+    width:1200px;
+    margin-left: 0px;
+    margin-right: auto; /* Set a width if you like */
+    text-align: center;
+    font-size: 48px;
+}
+.name{
+    width: 80px;
+    height: 60px;
+}
+.gamer{
+    width: 800px;
+    height: 60px;
+    margin-left: 10px;
+}
+.leftbar{
+    float:left;
+    width: 500px;
+    margin-left: 0px;
+    margin-right: auto; /* Set a width if you like */
+    text-align: center;
+    font-size: 48px;
+}
+.rightbar{
+    float: right;
+    width: 700px;
+    margin-left: auto;
+    margin-right: 200px; /* Set a width if you like */
+    text-align: center;
+    font-size: 20px;
+}
+#regtable{
+    float: right;
+    width: 500px;
+    margin-left: auto;
+    margin-right:10px;
+    text-align: center;
+    font-size: 48px;
+}
+.sidenav {
+    width: 80px;
+    padding: 20px;
+    position: fixed;
+    border-radius: 20px;
+    text-align: center;
+    z-index: 1;
+    top: 20px;
+    right: 10px;
+    background: rgb(150, 6, 107);
+    overflow-x: hidden;
+    overflow: hidden;
+    font-size: 18px;
+    font-family:'Inconsolata', monospace;
+    cursor: pointer;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+}
+
+.sidenav a:hover {
+   color: darkblue;
+}
+
+.main {
+    margin-left: 140px; 
+    font-size: 28px; 
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}

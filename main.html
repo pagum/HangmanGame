@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Hangman Game: Start
+        </title>
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="styleMain.css" type="text/css"/>
+        
+       
+    </head>
+
+    <body "window.setTimeout('getSecs()',1)" >
+        <div id="container">
+            <div id="category"> </div>
+            <div id="passwordField"> </div>
+            <div id="chances">
+                <p> Chances left: 10 </p>
+                
+            </div>
+            <div id="hint">hint</div>
+            
+            <div id="alphabet"></div>
+             <form name="answer">
+                  <p><label>Provide the answer:</label>
+                     <input type="text" placeholder="answer..."  name="content">
+                    
+                    <div></p> 
+                            <p><button type="button" class="button"  onclick="wholePassword()" >Ok</button></p>
+                        </div>
+                        
+        </div>
+        <script src="./assets/data.js"></script>
+        <script src = "main.js"></script>
+    </body>
+</html>
